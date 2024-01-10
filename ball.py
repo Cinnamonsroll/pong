@@ -4,7 +4,7 @@ import random
 class Ball:
     def __init__(self):
         w, h = pygame.display.get_surface().get_size()
-        self.radius = 10  # Set the radius for the circle
+        self.radius = 10
         self.position = (w // 2, h // 2)
         self.velocity = [random.choice([-1, 1]), random.choice([-1, 1])]
         self.score_1 = 0
